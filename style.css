@@ -1,0 +1,16 @@
+    #grid-container {
+        display: flex;
+        flex-wrap: wrap; 
+        width: 600px;
+        height: 600px;
+        border: 1px solid black;
+    }
+
+    .grid-item {
+        /* Define size and styling for each grid item */
+        box-sizing: border-box; /* Include padding and border in the element's total width and height */
+        border: 1px solid lightgray;
+        display: flex; /* Make each item a flex container for centering content if needed */
+        justify-content: center;
+        align-items: center;
+    }
