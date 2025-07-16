@@ -10,10 +10,21 @@
             gridItem.classList.add('grid-item');
             gridItem.style.width = `${itemWidth}%`;
             gridItem.style.height = `${itemHeight}%`;
-            // Optional: Add content to the grid item
-            // gridItem.textContent = `Item ${i + 1}`;
             container.appendChild(gridItem);
         }
     }
 
     createFlexGrid(16, 16);
+
+    const gridItem = document.querySelectorAll('.grid-item');
+    
+    function draw() {
+        gridItem.forEach(div => {
+            div.addEventListener('mouseover', function() {
+                gridItem.style.backgroundColor = 'red';
+            })
+        })
+    }
+
+    draw();
+
