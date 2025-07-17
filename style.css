@@ -5,6 +5,7 @@
 }
 
 body {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     min-height: 100vh;
     height: 100vh;
     background-color: grey;
@@ -25,6 +26,8 @@ header {
 
 h1 {
     color: white;
+    text-transform: uppercase;
+    
 }
 
 .grid-dimensions {
